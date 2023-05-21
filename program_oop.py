@@ -5,40 +5,53 @@
 from user_interface import UserInterface
 from calculator import Calculator
 
-ui = UserInterface()
-calc = Calculator()
+# while loop
+simple_calculator = ""
+while simple_calculator != "NO":
 
-# Pseudocode
+    ui = UserInterface()
+    calc = Calculator()
 
-# ask user for input (math operations)
-operation = ui.ask_operation()
+    # Pseudocode
 
-# ask user for 1st number
-num1 = ui.ask_number()
+    # ask user for input (math operations)
+    operation = ui.ask_operation()
 
-# ask user for 2nd number
-num2 = ui.ask_number()
+    # ask user for 1st number
+    num1 = ui.ask_number()
 
-# addition
-if operation.upper() == "ADDITION":
-    ui.display_addition(num1, num2)
-    sum = calc.add(num1, num2)
-    ui.display_sum(sum)
+    # ask user for 2nd number
+    num2 = ui.ask_number()
 
-# subtraction
-if operation.upper() == "SUBTRACTION":
-    ui.display_subtraction(num1, num2)
-    difference = calc.subtract(num1, num2)
-    ui.display_difference(difference)
+    # addition
+    if operation.upper() == "ADDITION":
+        ui.display_addition(num1, num2)
+        sum = calc.add(num1, num2)
+        ui.display_sum(sum)
 
-# multiplication
-if operation.upper() == "MULTIPLICATION":
-    ui.display_multiplication(num1, num2)
-    product = calc.multiply(num1, num2)
-    ui.display_product(product)
+    # subtraction
+    if operation.upper() == "SUBTRACTION":
+        ui.display_subtraction(num1, num2)
+        difference = calc.subtract(num1, num2)
+        ui.display_difference(difference)
 
-# division
-if operation.upper() == "DIVISION":
-    ui.display_division(num1, num2)
-    quotient = calc.divide(num1, num2)
-    ui.display_quotient(quotient)
+    # multiplication
+    if operation.upper() == "MULTIPLICATION":
+        ui.display_multiplication(num1, num2)
+        product = calc.multiply(num1, num2)
+        ui.display_product(product)
+
+    # division
+    if operation.upper() == "DIVISION":
+        ui.display_division(num1, num2)
+        quotient = calc.divide(num1, num2)
+        ui.display_quotient(quotient)
+    
+    # if yes
+    if simple_calculator.upper() == "YES":
+        
+    # if no
+    else: 
+        simple_calculator.upper() == "NO"
+        
+        break
