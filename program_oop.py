@@ -10,7 +10,10 @@ ui = UserInterface()
 
 # ask user for input (math operations)
 operation = ui.ask_input()
+
 # ask user for number input
+num1 = ui.ask_input()
+
 # addition
 # subtraction
 # multiplication
