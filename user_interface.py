@@ -15,3 +15,6 @@ class UserInterface:
     
     def display_subtraction(self, num1, num2):
         print("\nWe'll be performing subtraction on", num1, "and", num2)
+    
+    def display_difference(self, difference):
+        print ("Result: " + str(difference))
