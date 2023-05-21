@@ -18,3 +18,7 @@ class UserInterface:
     
     def display_difference(self, difference):
         print ("Result: " + str(difference))
+    
+    def display_multiplication(self, num1, num2):
+        print("\nWe'll be performing multiplication on", num1, "and", num2)
+        

@@ -32,7 +32,8 @@ if operation.upper() == "SUBTRACTION":
     ui.display_difference(difference)
 
 # multiplication
-if operation.upper() = "MULTIPLICATION":
+if operation.upper() == "MULTIPLICATION":
+    ui.display_multiplication(num1, num2)
     product = calc.multiply(num1, num2)
 
 
