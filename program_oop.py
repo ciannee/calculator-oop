@@ -20,8 +20,9 @@ num1 = ui.ask_number()
 num2 = ui.ask_number()
 
 # addition
-sum = calc.add(num1, num2)
-
+if operation.upper() == "ADDITION":
+    ui.display_addition(num1, num2)
+    sum = calc.add(num1, num2)
 # subtraction
 difference = calc.subtract(num1, num2)
 
