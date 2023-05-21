@@ -39,5 +39,5 @@ if operation.upper() == "MULTIPLICATION":
 
 # division
 if division.upper() == "DIVISION":
-    
-quotient = calc.divide(num1, num2)
+    ui.display_division(num1, num2)
+    quotient = calc.divide(num1, num2)

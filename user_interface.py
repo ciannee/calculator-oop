@@ -24,3 +24,6 @@ class UserInterface:
     
     def display_product(self, product):
         print ("Result: " + str(product))
+    
+    def display_division(self, num1, num2):
+        print ("\nWe'll be performing division on", num1, "and", num2)
