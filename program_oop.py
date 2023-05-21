@@ -17,9 +17,11 @@ operation = ui.ask_operation()
 num1 = ui.ask_number()
 
 # ask user for 2nd number
-num2 = ui.ask_input()
+num2 = ui.ask_number()
 
 # addition
+sum = calc.add(num1, num2)
+
 # subtraction
 # multiplication
 # division
