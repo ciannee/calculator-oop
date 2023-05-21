@@ -27,3 +27,6 @@ class UserInterface:
     
     def display_division(self, num1, num2):
         print ("\nWe'll be performing division on", num1, "and", num2)
+    
+    def display_quotient(self, quotient):
+        print ("Result: " + str(quotient))

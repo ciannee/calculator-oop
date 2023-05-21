@@ -13,6 +13,8 @@ class Calculator:
     
     def divide(self, num1, num2):
         try:
-            quotient = num1/num2
-        except ZeroDivsionError:
+            quotient = (float(num1) / float(num2))
+        except ZeroDivisionError:
             quotient = 0
+        finally:
+            return quotient
