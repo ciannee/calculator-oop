@@ -32,7 +32,9 @@ if operation.upper() == "SUBTRACTION":
     ui.display_difference(difference)
 
 # multiplication
-product = calc.multiply(num1, num2)
+if operation.upper() = "MULTIPLICATION":
+    product = calc.multiply(num1, num2)
+
 
 # division
 quotient = calc.divide(num1, num2)
