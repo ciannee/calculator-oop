@@ -29,3 +29,4 @@ difference = calc.subtract(num1, num2)
 product = calc.multiply(num1, num2)
 
 # division
+quotient = calc.divide(num1, num2)
