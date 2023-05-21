@@ -4,9 +4,12 @@
 
 from user_interface import UserInterface
 
+ui = UserInterface()
+
 # Pseudocode
 
 # ask user for input (math operations)
+operation = ui.ask_input()
 # ask user for number input
 # addition
 # subtraction
