@@ -9,10 +9,10 @@ ui = UserInterface()
 # Pseudocode
 
 # ask user for input (math operations)
-operation = ui.ask_input()
+operation = ui.ask_operation()
 
 # ask user for number input
-num1 = ui.ask_input()
+num1 = ui.ask_number()
 
 # addition
 # subtraction
