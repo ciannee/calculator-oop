@@ -23,6 +23,8 @@ num2 = ui.ask_number()
 if operation.upper() == "ADDITION":
     ui.display_addition(num1, num2)
     sum = calc.add(num1, num2)
+    ui.display_sum(sum)
+    
 # subtraction
 difference = calc.subtract(num1, num2)
 

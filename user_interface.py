@@ -9,3 +9,6 @@ class UserInterface:
     
     def display_addition(self, num1, num2):
         print("\nWe'll be performing addition on", num1, "and", num2)
+    
+    def display_sum (self, sum):
+        print ("Result: " + str(sum))
