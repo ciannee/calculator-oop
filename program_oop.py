@@ -3,8 +3,10 @@
 # Assignment 7: Redo calculator using OOP concept
 
 from user_interface import UserInterface
+from calculator import Calculator
 
 ui = UserInterface()
+calc = Calculator()
 
 # Pseudocode
 
