@@ -47,6 +47,8 @@ while simple_calculator != "NO":
         quotient = calc.divide(num1, num2)
         ui.display_quotient(quotient)
     
+    simple_calculator = ui.try_again()
+    
     # if yes
     if simple_calculator.upper() == "YES":
         
