@@ -10,3 +10,9 @@ class Calculator:
     def multiply(self, num1, num2):
         product = num1 * num2
         return product
+    
+    def divide(self, num1, num2):
+        try:
+            quotient = num1/num2
+        except ZeroDivsionError:
+            quotient = 0
