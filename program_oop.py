@@ -35,7 +35,7 @@ if operation.upper() == "SUBTRACTION":
 if operation.upper() == "MULTIPLICATION":
     ui.display_multiplication(num1, num2)
     product = calc.multiply(num1, num2)
-
+    ui.display_product(product)
 
 # division
 quotient = calc.divide(num1, num2)

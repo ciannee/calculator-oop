@@ -21,4 +21,6 @@ class UserInterface:
     
     def display_multiplication(self, num1, num2):
         print("\nWe'll be performing multiplication on", num1, "and", num2)
-        
+    
+    def display_product(self, product):
+        print ("Result: " + str(product))
