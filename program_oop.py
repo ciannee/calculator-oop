@@ -23,5 +23,7 @@ num2 = ui.ask_number()
 sum = calc.add(num1, num2)
 
 # subtraction
+difference = calc.subtract(num1, num2)
+
 # multiplication
 # division
