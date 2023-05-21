@@ -38,4 +38,6 @@ if operation.upper() == "MULTIPLICATION":
     ui.display_product(product)
 
 # division
+if division.upper() == "DIVISION":
+    
 quotient = calc.divide(num1, num2)
