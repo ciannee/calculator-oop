@@ -24,6 +24,7 @@ sum = calc.add(num1, num2)
 
 # subtraction
 difference = calc.subtract(num1, num2)
+print(difference)
 
 # multiplication
 # division
