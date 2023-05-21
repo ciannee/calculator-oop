@@ -24,9 +24,11 @@ if operation.upper() == "ADDITION":
     ui.display_addition(num1, num2)
     sum = calc.add(num1, num2)
     ui.display_sum(sum)
-    
+
 # subtraction
-difference = calc.subtract(num1, num2)
+if operation.upper() == "SUBTRACTION":
+    ui.display_subtraction(num1, num2)
+    difference = calc.subtract(num1, num2)
 
 # multiplication
 product = calc.multiply(num1, num2)

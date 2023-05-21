@@ -12,3 +12,6 @@ class UserInterface:
     
     def display_sum (self, sum):
         print ("Result: " + str(sum))
+    
+    def display_subtraction(self, num1, num2):
+        print("\nWe'll be performing subtraction on", num1, "and", num2)
