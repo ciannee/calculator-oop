@@ -35,6 +35,7 @@ while simple_calculator != "NO":
     # addition
     if operation.upper() == "ADDITION":
         ui.display_addition(num1, num2)
+        ui.display_loading_screen()
         sum = calc.add(num1, num2)
         ui.display_sum(sum)
 
