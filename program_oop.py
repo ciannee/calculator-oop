@@ -42,18 +42,21 @@ while simple_calculator != "NO":
     # subtraction
     if operation.upper() == "SUBTRACTION":
         ui.display_subtraction(num1, num2)
+        ui.display_loading_screen()
         difference = calc.subtract(num1, num2)
         ui.display_difference(difference)
 
     # multiplication
     if operation.upper() == "MULTIPLICATION":
         ui.display_multiplication(num1, num2)
+        ui.display_loading_screen()
         product = calc.multiply(num1, num2)
         ui.display_product(product)
 
     # division
     if operation.upper() == "DIVISION":
         ui.display_division(num1, num2)
+        ui.display_loading_screen()
         quotient = calc.divide(num1, num2)
         ui.display_quotient(quotient)
     
