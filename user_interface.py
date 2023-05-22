@@ -1,6 +1,7 @@
 class UserInterface:
     def try_again(self):
         simple_calculator = input("\nDo you want to try again? ")
+        return simple_calculator
 
     def ask_operation(self):
        operation = input("\n\033[01m\nPlease choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\n\nEnter your answer: ")

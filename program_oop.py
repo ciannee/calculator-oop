@@ -49,11 +49,12 @@ while simple_calculator != "NO":
     
     simple_calculator = ui.try_again()
     
-    # if yes
+   # if yes
     if simple_calculator.upper() == "YES":
-        
+        print("STARTING.....")
+
     # if no
     else: 
         simple_calculator.upper() == "NO"
-        
+        print("THANK YOU!")
         break
