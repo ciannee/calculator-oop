@@ -4,6 +4,7 @@
 
 from user_interface import UserInterface
 from calculator import Calculator
+import time
 
 # while loop
 simple_calculator = ""
@@ -13,6 +14,12 @@ while simple_calculator != "NO":
     calc = Calculator()
 
     # Pseudocode
+
+    # ask user for name
+    name = ui.ask_name()
+    time.sleep(3)
+    ui.display_intro(name)
+    time.sleep(3)
 
     # ask user for input (math operations)
     operation = ui.ask_operation()

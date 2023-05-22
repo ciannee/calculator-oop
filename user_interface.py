@@ -3,6 +3,13 @@ class UserInterface:
         simple_calculator = input("\nDo you want to try again? ")
         return simple_calculator
 
+    def ask_name(self):
+        name = input("\n\033[01mPlease enter your name: ")
+        return name
+    
+    def display_intro(self, name):
+        print("\nHi,", name, "I have prepared a simple calculator for you!")
+
     def ask_operation(self):
        operation = input("\n\033[01m\nPlease choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\n\nEnter your answer: ")
        return operation
