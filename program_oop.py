@@ -23,6 +23,8 @@ while simple_calculator != "NO":
 
     # ask user for input (math operations)
     operation = ui.ask_operation()
+    time.sleep(2)
+    ui.display_instruction()
 
     # ask user for 1st number
     num1 = ui.ask_number()
