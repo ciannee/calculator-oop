@@ -66,10 +66,12 @@ while simple_calculator != "NO":
     
    # if yes
     if simple_calculator.upper() == "YES":
+        time.sleep(2)
         print("STARTING.....")
 
     # if no
     else: 
         simple_calculator.upper() == "NO"
+        time.sleep(2)
         print("THANK YOU!")
         break
