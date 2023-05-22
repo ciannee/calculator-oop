@@ -38,6 +38,9 @@ class UserInterface:
         print("\n  ██████████")
         time.sleep(3)
 
+    def display_invalid_input(self):
+        print("Invalid Input!")
+
     def display_addition(self, num1, num2):
         print("\nWe'll be performing addition on", num1, "and", num2)
 
