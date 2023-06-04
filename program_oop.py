@@ -4,6 +4,7 @@
 
 from user_interface import UserInterface
 from calculator import Calculator
+from calculator_patricia import CalculatorPatricia
 import time
 
 # while loop
@@ -12,6 +13,7 @@ while simple_calculator != "NO":
 
     ui = UserInterface()
     calc = Calculator()
+    patricia = CalculatorPatricia()
 
     # Pseudocode
 
@@ -59,6 +61,12 @@ while simple_calculator != "NO":
         ui.display_loading_screen()
         quotient = calc.divide(num1, num2)
         ui.display_quotient(quotient)
+    
+    elif operation.upper() == "EXPONENT":
+        ui.display_power_rule(num1, num2)
+        ui.display_loading_screen()
+        exponent = patricia.exponent(num1, num2)
+        ui.display_exponent(exponent)
     
 
     # ask user to try again

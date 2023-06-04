@@ -13,7 +13,7 @@ class UserInterface:
         print("\n\033[93mHi,", name, "I have prepared a simple calculator for you!")
 
     def ask_operation(self):
-       operation = input("\n\033[01m\nPlease choose among the four math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\n\nEnter your answer: ")
+       operation = input("\n\033[01m\nPlease choose among the math operations:\n\nAddition\nSubtraction\nMultiplication\nDivision\nExponent\n\nEnter your answer: ")
        return operation
 
     def display_instruction(self):
@@ -63,6 +63,12 @@ class UserInterface:
     
     def display_quotient(self, quotient):
         print ("\nResult: " + str(quotient))
+    
+    def display_power_rule(self, num1, num2):
+        print ("\n\033[95mWe'll be performing the power rule on", num1, "and", num2)
+    
+    def display_exponent(self, exponent):
+        print ("\nResult: " + str(exponent))
     
     def display_yes(self, starting):
         print("STARTING.....")
